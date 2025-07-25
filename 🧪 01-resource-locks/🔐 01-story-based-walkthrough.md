@@ -1,151 +1,109 @@
-
-# 🛡️ Lab 1: Create Azure Resource Locks
-
----
+# 🛡️ Create a Virtual Machine & Add Azure Resource Locks
 
 ## 🔮 Scenario Setup
 
-A quiet morning in Denmark. The sky is pale blue, and the air smells like fresh coffee ☕.  
-**Mr. eks2** walks into the SikkerCloud office, notebook in hand, eyes full of curiosity.
+Mr. eks2 had just finished his morning tea in the cozy café near his cloud security office in Denmark. He walked into the Azure Lab Room — a warm space filled with light, learning, and a little bit of Danish hygge.
 
-“Godmorgen!” says **Kasper Madsen**, waving. “Today, we’ll protect your Azure resources like royal jewels.”
+“Godmorgen, Mr. eks2!” smiled **Kasper Madsen**, waving a cinnamon roll. “Ready to lock down some resources today?”
 
-**Sofia Zaymera** smiles softly from her screen. “We're going to learn about **resource locks**. They help stop accidental deletion or unwanted changes to your important cloud resources.”
+“Hola and welcome,” added **Sofia Zaymera**, arranging some lab notes. “Today’s lab will teach you how to create a **Virtual Machine** and protect it with **resource locks**. These locks stop others from deleting or changing things by accident. Very useful for security!”
 
-> “So, it's like putting a safety seal on my cloud things?”  
-> — Mr. eks2, wide-eyed.
+Mr. eks2 nodded, “Let’s begin. But... what’s a lock in the cloud? Do we need keys too?” he asked with wonder.
 
-“Exactly!” says Kasper. “Let's begin!”
+Kasper chuckled. “Not physical keys — just digital safeguards!”
 
 ---
 
 ## 🛠️ Step-by-Step with Story & Dialogues
 
-### 🧱 Task 1: Create a Virtual Machine
+### 🔧 Task 1: Create a Virtual Machine
 
-**Kasper**: “We start by creating a **Virtual Machine** — like your digital computer in the cloud. Think of it as your superhero base!”
+👨‍💼 **Mr. eks2** entered the **Azure Portal**, eyes wide with curiosity.
 
-> 🖱️ In the **Azure portal**, click **Create a resource**  
-> ➕ Select **Virtual Machine**, then **Create**
+🇩🇰 **Kasper**: “Click on **Create a resource**. Choose **Virtual Machine** — or in Danish, *Virtuel Maskine*. Imagine it like building a little server in the sky!”
 
-**Sofia**: “Give your VM a safe name. We’ll call it **NordicVault-VM** and put it in a new **Resource Group** (📦 *ressourcegruppe*) named **DKSec-RG**.”
+🇪🇸 **Sofia**: “Let’s use friendly names. Create a **Resource Group** [*ressourcegruppe*] and call it **NordicVault-Resources**. This is like a folder to hold everything.”
 
-Here’s what we filled:
+👨‍💼 **Mr. eks2**: “So we’re organizing our things before we begin. Like setting up kitchen shelves before cooking?”
 
-- **Resource Group**: DKSec-RG  
-- **Virtual Machine Name**: NordicVault-VM  
-- **Availability Options**: No infrastructure redundancy required  
-- **Security Type**: Trusted launch virtual machines  
-- **Image**: Ubuntu Server 20.04 LTS Gen2  
-- **Size**: B2s (click *See all sizes*)  
-- **Authentication Type**: Password  
-- **Username**: DKUser  
-- **Password**: StrongPassword@123
+🧑‍💼 **Kasper**: “Exactly! Now name your VM: **NordicVault-VM**.”
 
-Click **Next: Disks >**
+🧑‍🎓 Sofia added: “Set **Availability Options** to *No infrastructure redundancy required*. Choose **Trusted Launch** for **Security Type** — it gives your VM more protection.”
 
-On the **Disks** tab:
+🧑‍💼 “We’ll use **Ubuntu Server 20.04 LTS Gen2**,” Kasper said. “It’s stable and secure.”
 
-- **OS Disk Type**: Standard SSD (Locally-redundant Storage)
+🧑‍🎓 “Pick the **B2s size** — not too big, not too small,” Sofia guided.
 
-Click **Review + Create**, then **Create**
+👨‍💼 “And for login… I’ll use username **NordicUser** with a strong password!”
 
-> 💬 Mr. eks2: “Why Ubuntu, not Windows?”  
-> 🧘 Sofia: “Ubuntu is lighter, faster, and often used for cloud security labs. Plus, it’s open source!”
+🧑‍💼 “Good choice! Now under **Disks**, choose **Standard SSD** — it’s reliable and cost-friendly.”
+
+🎉 Click **Review + Create**, then **Create**. Your Virtual Machine is flying into the cloud!
 
 ---
 
-### 🔒 Task 2: Add a Delete Lock to the Virtual Machine
+### 🔐 Task 2: Add a Delete Lock to the Virtual Machine
 
-**Kasper**: “Now imagine you don’t want anyone (even yourself!) to accidentally delete this VM. Let’s lock it — like putting a ‘Do Not Delete’ sticker.”
+👨‍💼 **Mr. eks2** looked at his new VM. “Now it’s live… but how do we protect it from being deleted?”
 
-Go to your **Virtual Machine** (NordicVault-VM).  
-On the left menu, scroll to **Locks** under **Settings**.
+🧑‍💼 Kasper smiled: “Go to **Settings > Locks** in the left menu.”
 
-Click **Add**:
+🧑‍🎓 Sofia explained: “Click **Add**, then name the lock: **VMDeleteLock**.”
 
-- **Lock Name**: VMDeleteLock  
-- **Lock Type**: Delete
+🧑‍💼 “Set the **Lock Type** to **Delete**. This means no one can delete this VM unless they remove the lock first.”
 
-Click **OK** ✅
+👨‍💼 “Ah, like a padlock on a bicycle. You can still ride it, but no one can take it!”
 
-> 💬 Mr. eks2: “So this stops people from removing it?”  
-> 🌸 Sofia: “Yes — it’s perfect for important resources. Even admins must remove the lock before deletion.”
+🧑‍🎓 “Exactly, mi amigo.”
 
 ---
 
-### 📦 Task 3: Add a Read-Only Lock to the Resource Group
+### 🛑 Task 3: Add a Read-Only Lock to the Resource Group
 
-**Kasper**: “Now let’s protect the whole box — your **Resource Group** (DKSec-RG). We’ll make it **read-only** so nobody can change anything inside.”
+🧑‍💼 Kasper: “Now let’s lock the whole **Resource Group** with a **Read-only lock**. This means people can see, but not change things.”
 
-Go to **Resource Groups** > **DKSec-RG**  
-Click **Locks** under **Settings**
+👨‍💼 “Like a museum display. Look but don’t touch?”
 
-Click **Add**:
+🧑‍🎓 Sofia: “Perfect metaphor. Go to **NordicVault-Resources**, then **Settings > Locks**.”
 
-- **Lock Name**: RGReadOnly  
-- **Lock Type**: Read-only
+🧑‍💼 Add a lock called **RGReadOnly** and set type to **Read-only**.
 
-Click **OK** ✅
-
-> 💬 Mr. eks2: “This is like putting the whole treasure chest under glass!”  
-> 🧘 Sofia: “Beautiful metaphor. Yes — everything inside becomes view-only.”
+👨‍💼 “Done! Everything feels much safer now.”
 
 ---
 
-### 🧹 Delete All Resources (Optional Cleanup)
+## 🧹 Clean-Up (Delete Resources)
 
-Now that we’re done, you can remove all the resources — **but** you’ll first need to **remove the locks**.
+🧑‍🎓 Sofia reminded: “Now try to delete the **Virtual Machine**… you’ll see the lock stops you.”
 
-> 🧊 Sofia: “Think of it as unlocking a safe before moving the contents.”
+🧑‍💼 Kasper added: “To clean up, remove both locks first — then delete the VM and Resource Group.”
+
+👨‍💼 Mr. eks2 smiled, “So locks are like invisible shields. Gentle, but firm.”
 
 ---
 
 ## 🌍 Real-World Reflection
 
-In real cloud jobs, people sometimes delete or change things by mistake. These **locks** are simple, powerful tools to protect important systems. For beginners or career-changers, learning to use locks is like learning to save your work — essential for safety and trust in IT.
+This lab teaches a very real skill: how to protect cloud resources from accidents or mistakes. In real IT jobs, people often delete things too quickly — these **locks** act like safety nets. If you’re a beginner or switching careers, knowing how to use **resource locks** makes you a trusted guardian of the cloud.
 
 ---
 
 ## 📘 Bonus: Learn 10 Danish Tech Words
 
-| English Term         | Danish Word             |
-|----------------------|-------------------------|
-| Resource Group        | Ressourcegruppe         |
-| Virtual Machine       | Virtuel Maskine         |
-| Lock                  | Lås                     |
-| Delete                | Slet                    |
-| Read-only             | Kun læsbar              |
-| Settings              | Indstillinger           |
-| Disk                  | Disk                    |
-| Image (OS)            | Billede (Styresystem)   |
-| Username              | Brugernavn              |
-| Password              | Adgangskode             |
+| English Term           | Danish Word            |
+|------------------------|------------------------|
+| Resource Group         | Ressourcegruppe        |
+| Virtual Machine        | Virtuel Maskine        |
+| Storage Account        | Lagerkonto             |
+| Lock                   | Lås                    |
+| Read-only              | Kun læsbar             |
+| Delete                 | Slet                   |
+| Password               | Adgangskode            |
+| Username               | Brugernavn             |
+| Disk                   | Disk                   |
+| Size                   | Størrelse              |
 
 ---
-
-## 🧾 Final Summary (Character Intros)
-
-### 👨‍💼 Muhammad Naveed Ishaque  
-Muhammad is a content creator who believes that even shy voices can shine through writing. His work helps beginners feel confident and calm while learning hard things like security and cloud.
-
-### 🛸 Mr. eks2  
-Mr. eks2 was once a quiet whisper — now, he is a beginner cloud security trainee in Denmark. He learns slowly, kindly, and deeply. He always asks, “Can this be more human?”
-
-### 🇩🇰 Kasper Madsen  
-Kasper is a warm and funny Azure Security Specialist. He believes that labs should be joyful, not scary. He loves guiding new learners, especially by making things feel real and not robotic.
-
-### 🇪🇸 Sofia Zaymera  
-Sofia was born in Spain and brings both kindness and clarity to every lab. She understands advanced security concepts, but explains them in soft words, so learners can feel peace while learning.
-
-### 🎓 Siraat AI Academy  
-**“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”**  
-Siraat is a creative initiative to make hard tech feel easy, especially for those new to IT, from non-tech backgrounds, or from hidden corners of the world.  
-Built with purpose. Built for peace.
-
----
-
-## ✅ Signature Close
 
 ✍️ Created & Curated by  
 **Muhammad Naveed Ishaque**  
