@@ -183,9 +183,7 @@ This lab teaches you the heart of secure, organized data storage in the cloud. I
 
 ---
 
-## ✅ Signature Close
-
-🧾 Guided by:  
+## 🧾 Guided by:  
 🛸 **Mr. eks2** — the curious whisper of Muhammad Naveed Ishaque, now a beginner Azure Security trainee at a Danish firm, always asking, “Can this be simpler?”  
 🇩🇰 **Kasper Madsen** — a joyful Danish Azure Security Specialist who turns labs into friendly journeys  
 🇪🇸 **Sofia Zaymera** — a soft-spoken security expert from Spain who explains complexity with clarity  
