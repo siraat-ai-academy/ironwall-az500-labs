@@ -24,11 +24,12 @@ If you carry a **thirst to learn**, you're already home.
 
 ---
 
-## 🌄 Three Gentle Ways to Explore Each Lab — The eks2 Path
+
+## 🌄 Four Gentle Ways to Explore Each Lab — The eks2 Path
 
 In this repo, **every lab is more than just steps.** It’s a journey — walked slowly, kindly, like a thoughtful friend showing you around a land he loves.
 
-Each lab follows **3 beautiful paths of understanding**, designed to help you feel, see, and understand the world of cloud security like never before:
+Each lab follows **4 beautiful paths of understanding**, designed to help you feel, see, and understand the world of cloud security like never before:
 
 1. **🧭 Story-Based Step-by-Step**  
    The lab is explained through a **friendly story** — characters, dialogues, and moments of surprise. It’s like walking with someone through every window, firewall, or secret key — together.
@@ -39,6 +40,12 @@ Each lab follows **3 beautiful paths of understanding**, designed to help you fe
 3. **🗺️ Text-Based Diagram + Map Walkthrough**  
    You’ll also find a **visual map** of the lab using clean, text-based diagrams. Kasper and Sofia (our two cloud guides) will then walk you through it again — like showing you a mountain, then telling you how the river flows behind it.
 
+4. **🧾 Interview Task – Quick Recall Sheet**  
+   Every lab ends with a **1-page bullet summary** — clean, clear, and perfect for interviews.  
+   It shows what we did, and more importantly, **why we did it**.  
+   These sheets help you revise fast, sound confident in mock interviews, and reconnect with the deeper meaning of each Azure feature.  
+   Because real mastery isn’t in the clicks — it’s in the clarity.
+
 > The goal?  
 > Not just to pass a certification.  
 > But to understand the land of Azure — its rivers, its locks, its valleys of roles and access.  
@@ -48,7 +55,6 @@ In the world of **ironwall-az500-labs**, we don’t just deploy labs.
 We **listen**, **learn**, and **live inside them** — until they become part of us.
 
 ---
-
 ## 🔢 28 Real-World Azure Labs  
 A step-by-step path through Azure administration (AZ-104) and security (AZ-500).
 
