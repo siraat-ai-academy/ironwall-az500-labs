@@ -1,4 +1,4 @@
-## Interview Task – Quick Recall Sheet FOR THE LAB STEPS GIVEN IN THE INPUT
+## Interview Task – Quick Recall Sheet
 
 ### Lab 14: Create and manage a Virtual Machine Scale Set Using Azure CLI
 
