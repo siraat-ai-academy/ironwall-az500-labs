@@ -222,10 +222,11 @@ There is no hurry.
 
 ---
 
-**📘 Start Lab 01 →** [Creating Azure Resource Locks](./lab01-resource-locks.md)  
+**📘 Start Lab 01 →** [Creating Azure Resource Locks](https://github.com/siraat-ai-academy/ironwall-az500-labs/tree/main/%F0%9F%A7%AA%2001-resource-locks)  
 **✨ New Here?** Just read. Understanding will follow like a friend.
 
 ---
+
 
 With peace, care, and curiosity,  
 **Muhammad Naveed Ishaque**  
