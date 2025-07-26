@@ -24,7 +24,7 @@ If you carry a thirst to learn, you're already home.
 
 ---
 
-## 🌄 Three Gentle Ways to Explore Each Lab — The eks2 Path
+## 🌄 Four Gentle Ways to Explore Each Lab — The eks2 Path
 
 Each lab follows 4 beautiful paths of understanding:
 
