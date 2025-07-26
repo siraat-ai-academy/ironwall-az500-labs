@@ -151,7 +151,7 @@ When the British firm **Kroll** investigated the attack that destroyed a **158-y
 
 This lab — where we manage **access**, **capacity**, and **VM orchestration** — teaches us that every small setting, every secure login, every cleanup… matters. These are not just commands. They are shields. They are the invisible guardians of data, identity, and history.
 
-📰 Read the full BBC story: [BBC Article](https://www.bbc.com/news/business-66301653)
+📎 Read more: [BBC Article](https://www.bbc.com/news/articles/cx2gx28815wo)
 
 ---
 
