@@ -1,6 +1,6 @@
 
 
-## 🚀 Summary of Key Steps & Purpose
+# 🚀 Summary of Key Steps & Purpose
 
 - **Step 1**: Launch **Azure Cloud Shell** *(to run CLI commands without needing local setup)*  
 - **Step 2**: Choose **Bash** environment *(commonly used for Azure CLI tasks)*  
@@ -25,8 +25,4 @@
 ✍️ **Muhammad Naveed Ishaque** — the voice behind the journey, making learning feel human  
 🔐 **From the IronWall Labs** — where security is care, and clarity is power.
 """
-
-# Save the content to a markdown file
-file_path = Path("/mnt/data/Interview-Quick-Recall-Lab14-VMSS-CLI.md")
-file_path.write_text(recall_sheet_content)
 
