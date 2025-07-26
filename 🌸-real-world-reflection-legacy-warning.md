@@ -49,8 +49,11 @@ _"We do this, so that your legacy stays untouched."_ she says softly.
 
 ---
 
-💮 These reflections are not just notes. They are petals of protection.  
-Each paragraph from Lab 14 to 28 is a seed — plant them in your heart.
+💮 **These reflections are not just notes. They are petals of protection.**  
+🌱 **The first 13 labs? They are the roots** — strong, quiet, foundational.  
+🌸 **From Lab 14 onward, each paragraph is a blooming flower** — a seed of wisdom planted by your hands.  
+Together, roots and petals make the IronWall strong.
+
 
 ---
 
