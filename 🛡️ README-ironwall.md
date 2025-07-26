@@ -37,6 +37,10 @@ Every Azure service used is explained again — gently, humorously, memorably.
 ### 🗺️ 3. Text-Based Diagram + Map Walkthrough  
 Each lab includes diagrams + visual walkthroughs explained by Kasper & Sofia.
 
+### 🧾 4. Interview Task – Quick Recall Sheet  
+A one-page bullet guide for each lab: what we do + why it matters.  
+Perfect for revision, mock interviews, or quiet moments of reflection.
+
 Not just to pass certification.  
 But to see Azure — and yourself — more clearly.
 
