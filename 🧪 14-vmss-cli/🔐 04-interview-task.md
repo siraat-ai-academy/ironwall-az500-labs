@@ -1,7 +1,4 @@
-from pathlib import Path
 
-# Redefine the markdown content after kernel reset
-recall_sheet_content = """# Interview Task – Quick Recall Sheet (Lab 14 – VMSS with CLI)
 
 ## 🚀 Summary of Key Steps & Purpose
 
@@ -33,4 +30,3 @@ recall_sheet_content = """# Interview Task – Quick Recall Sheet (Lab 14 – VM
 file_path = Path("/mnt/data/Interview-Quick-Recall-Lab14-VMSS-CLI.md")
 file_path.write_text(recall_sheet_content)
 
-file_path.name
