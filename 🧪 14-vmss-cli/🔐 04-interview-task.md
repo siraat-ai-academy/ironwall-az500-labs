@@ -1,49 +1,23 @@
-# ✅ Prompt: Interview Task – Quick Recall Sheet
+## Interview Task – Quick Recall Sheet FOR THE LAB STEPS GIVEN IN THE INPUT
 
-## 🔖 Prompt Purpose
+### Lab 14: Create and manage a Virtual Machine Scale Set Using Azure CLI
 
-Generate a single-page summary in professional bullet format titled:
-
-### **“Interview Task – Quick Recall Sheet”**  
-for a specific lab (from the above/previous output of the lab).
-
-This summary should compile key steps and briefly state the **"what we do"** and **"(why we do this)"** in each bullet — drawn from the previously generated outputs:
-
-- 🔐 01-story-based-walkthrough.md  
-- 🔐 02-tool-fun-facts.md  
-- 🔐 03-text-diagram-recap.md  
-
-The goal is to provide a concise, interview-ready reminder for **Mr. eks2** and all readers to recall each lab’s real purpose — not just tasks, but **intentional actions** that build practical understanding of **Azure security** and design logic.
-
----
-
-## ✍️ Output Format
-
-- Add a bold heading like:
-
-```markdown
-## Interview Task – Quick Recall Sheet (Lab XX – Lab Title)
-```
-
-- Use clean, crisp bullet points like:
-
-```markdown
-- Step 1: We created a **Resource Group** *(to logically group all related resources together)*
-- Step 2: We created a **Virtual Machine Scale Set** *(to deploy scalable, load-balanced VMs automatically)*
-- Step 3: We configured **Load Balancer** *(to distribute traffic and improve availability)*
-- Step 4: We enabled **Auto-Scaling** *(to adjust resources based on demand, reducing cost and improving performance)*
-```
-
-- Do **not** include storytelling, characters, or extended explanation.
-- Keep it technical, clear, and real-world applicable — like a cheat sheet for interviews, summaries, or deep reviews.
+- Step 1: We launched **Azure Cloud Shell** *(to access a browser-based CLI environment for managing Azure resources without local setup)*
+- Step 2: We selected **Bash and default storage options** *(to quickly initialize a usable environment with minimal configuration)*
+- Step 3: We created a **Virtual Machine Scale Set (VMSS)** *(to manage and scale a group of virtual machines automatically)*
+- Step 4: We used the **Ubuntu2204 image and VM SKU** *(to ensure compatibility and cost-effectiveness for Linux workloads)*
+- Step 5: We set **admin username and generated SSH keys** *(to securely authenticate into the VM instances)*
+- Step 6: We verified VMSS creation by listing VMs *(to confirm the resource was properly deployed and active)*
+- Step 7: We scaled the **VMSS capacity to 3** *(to handle increased workload and test auto-scaling functionality)*
+- Step 8: We confirmed updated instance count *(to verify scaling actions were successful)*
+- Step 9: We stopped all VMSS instances *(to conserve costs or prepare for updates or maintenance)*
+- Step 10: We stopped, deallocated individual VMs *(to manage specific VM state and resources efficiently)*
+- Step 11: We started and restarted VMs and VMSS *(to test recovery and reboot capabilities across individual or grouped instances)*
+- Step 12: We deleted all resources *(to clean up and prevent unnecessary costs after the lab)*
 
 ---
 
-## ✒️ Closing Signature (Always end with this)
-
----
-
-🧾 **Guided by:**  
+🧾 Guided by:  
 🛸 **Mr. eks2** — the curious whisper of Muhammad Naveed Ishaque, quietly turning steps into strength  
 ✍️ **Muhammad Naveed Ishaque** — the voice behind the journey, making learning feel human  
 🔐 _From the IronWall Labs — where security is care, and clarity is power._
