@@ -1,6 +1,6 @@
+# Interview Task – Quick Recall Sheet (Lab 14 – VMSS with CLI)
 
-
-# 🚀 Summary of Key Steps & Purpose
+## 🚀 Summary of Key Steps & Purpose
 
 - **Step 1**: Launch **Azure Cloud Shell** *(to run CLI commands without needing local setup)*  
 - **Step 2**: Choose **Bash** environment *(commonly used for Azure CLI tasks)*  
@@ -24,5 +24,3 @@
 🛸 **Mr. eks2** — the curious whisper of Muhammad Naveed Ishaque, quietly turning steps into strength  
 ✍️ **Muhammad Naveed Ishaque** — the voice behind the journey, making learning feel human  
 🔐 **From the IronWall Labs** — where security is care, and clarity is power.
-"""
-
