@@ -68,20 +68,20 @@ Take this markdown as a sign:
 ---
 
 ### 🧾 Guided by:
-🛸 **Mr. eks2** — the curious whisper of Muhammad Naveed Ishaque, now a beginner Azure Security trainee at a Danish firm, always asking, “Can this be simpler?”  
-🇩🇰 **Kasper Madsen** — a joyful Danish Azure Security Specialist who turns labs into friendly journeys  
-🇪🇸 **Sofia Zaymera** — a soft-spoken security expert from Spain who explains complexity with clarity  
-✍️ **Muhammad Naveed Ishaque** — a content creator whose words help beginners feel brave and seen  
-🔎 *See full character bios in the README file.*
+🛸 **Mr. eks2** — the curious whisper of Muhammad Naveed Ishaque, now a beginner Azure Security trainee at a Danish firm, always asking, “Can this be simpler?”
+
+**🇩🇰 Kasper Madsen** — a joyful Danish Azure Security Specialist who turns labs into friendly journeys  
+**🇪🇸 Sofia Zaymera** — a soft-spoken security expert from Spain who explains complexity with clarity  
+**✍️ Muhammad Naveed Ishaque** — a content creator whose words help beginners feel brave and seen  
+
+🔎 _See full character bios in the_ [**README**](./README.md) _file._
 
 ---
 
 ✍️ **Created & Curated by**  
 **Muhammad Naveed Ishaque**  
-*Content Creator | AI Writer | Narrative Simplifier*  
-*With the inner voice of eks2 — the whisper behind the work.*
+_Content Creator • AI Writer • Narrative Simplifier_  
+_With the inner voice of eks2 — the whisper behind the work._
 
 **Siraat AI Academy**  
 _“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”_
-
----
