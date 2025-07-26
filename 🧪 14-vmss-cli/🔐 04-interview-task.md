@@ -1,25 +1,30 @@
-## Interview Task – Quick Recall Sheet
+# Interview Task – Quick Recall Sheet (Lab 14 – VMSS with CLI)
 
-### Lab 14: Create and manage a Virtual Machine Scale Set Using Azure CLI
+- **Step 1**: Launched **Azure Cloud Shell** *(to access a CLI environment directly in the Azure Portal without local setup)*
+- **Step 2**: Selected **Bash Shell** and applied settings *(to use shell scripting and run CLI commands smoothly)*
+- **Step 3**: Created a **Virtual Machine Scale Set (VMSS)** using `az vmss create` *(to deploy scalable and manageable VMs for load balancing and performance)*
+- **Step 4**: Used `--orchestration-mode flexible` *(to manage individual VM instances independently within the scale set)*
+- **Step 5**: Verified **VMSS creation** with `az vm list` *(to confirm deployment and check instance details)*
+- **Step 6**: Scaled out the VMSS using `az vmss scale` *(to increase capacity and handle more load or demand)*
+- **Step 7**: Re-verified VM count using `az vm list` *(to ensure scaling applied correctly)*
+- **Step 8**: Stopped **all VM instances** in the scale set with `az vmss stop` *(to reduce resource usage and cost temporarily)*
+- **Step 9**: Stopped a **single VM instance** using `az vm stop` *(to manage individual VM for maintenance or testing)*
+- **Step 10**: Deallocated a specific VM using `az vm deallocate` *(to release compute resources while preserving configurations)*
+- **Step 11**: Started an individual VM with `az vm start` *(to bring a single machine back online for use)*
+- **Step 12**: Started all VMSS VMs using `az vmss start` *(to restore operations across the environment)*
+- **Step 13**: Restarted a VM using `az vm restart` *(to apply changes or resolve issues)*
+- **Step 14**: Restarted the whole VMSS using `az vmss restart` *(to refresh the entire workload environment in one go)*
+- **Final Step**: Deleted all resources *(to clean up and avoid unnecessary charges or clutter)*
 
-- Step 1: We launched **Azure Cloud Shell** *(to access a browser-based CLI environment for managing Azure resources without local setup)*
-- Step 2: We selected **Bash and default storage options** *(to quickly initialize a usable environment with minimal configuration)*
-- Step 3: We created a **Virtual Machine Scale Set (VMSS)** *(to manage and scale a group of virtual machines automatically)*
-- Step 4: We used the **Ubuntu2204 image and VM SKU** *(to ensure compatibility and cost-effectiveness for Linux workloads)*
-- Step 5: We set **admin username and generated SSH keys** *(to securely authenticate into the VM instances)*
-- Step 6: We verified VMSS creation by listing VMs *(to confirm the resource was properly deployed and active)*
-- Step 7: We scaled the **VMSS capacity to 3** *(to handle increased workload and test auto-scaling functionality)*
-- Step 8: We confirmed updated instance count *(to verify scaling actions were successful)*
-- Step 9: We stopped all VMSS instances *(to conserve costs or prepare for updates or maintenance)*
-- Step 10: We stopped, deallocated individual VMs *(to manage specific VM state and resources efficiently)*
-- Step 11: We started and restarted VMs and VMSS *(to test recovery and reboot capabilities across individual or grouped instances)*
-- Step 12: We deleted all resources *(to clean up and prevent unnecessary costs after the lab)*
+________________________________________
+🧾 Guided by:
+🛸 Mr. eks2 — the curious whisper of Muhammad Naveed Ishaque, quietly turning steps into strength  
+✍️ Muhammad Naveed Ishaque — the voice behind the journey, making learning feel human  
+🔐 From the IronWall Labs — where security is care, and clarity is power.
 
----
 
-🧾 Guided by:  
-🛸 **Mr. eks2** — the curious whisper of Muhammad Naveed Ishaque, quietly turning steps into strength  
-✍️ **Muhammad Naveed Ishaque** — the voice behind the journey, making learning feel human  
-🔐 _From the IronWall Labs — where security is care, and clarity is power._
+# Save to a markdown file
+file_path_recall = Path("/mnt/data/Lab-14-VMSS-with-CLI-Quick-Recall.md")
+file_path_recall.write_text(recall_sheet_content)
 
----
+file_path_recall.name
