@@ -83,6 +83,24 @@ You never were.
 
 —
 
+---
+
+## 🧠 Quick Character Recap – One-Liner Wisdoms
+
+- **I.K.** – The unseen spiritual mentor whose silence shapes every decision.
+- **eks2** – The reader’s own whisper, doubting and growing through each lab.
+- **Sofia** – The soft-spoken strategist who turns complexity into calm clarity.
+- **Kasper Madsen** – The Danish anchor of logic, tools, and gentle admin strength.
+- **Ayla Rune** – The forensics mind who reads Azure logs like ancient scrolls.
+- **Inki Rihan** – The stealthy red team phantom who breaks to protect.
+- **Elina Petrova** – The script sorceress who automates chaos into order.
+- **Isabella Konti** – The human-layer guardian shielding users from deception.
+- **Maya Lin** – The eager rookie, curious like you, growing lab by lab.
+- **ShadowNet** – The nameless adversary, always near, never seen.
+
+---
+
+
 With devotion, vision, and an open terminal,  
 ✍️ **Muhammad Naveed Ishaque**  
 _The Whisper Behind eks2_  
