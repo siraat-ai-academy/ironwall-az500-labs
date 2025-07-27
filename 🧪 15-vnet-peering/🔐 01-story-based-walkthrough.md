@@ -1,15 +1,14 @@
-
 # 🔗 Implementing Virtual Network Peering
 
 ## 🔮 Scenario Setup
 
 It was a fresh morning in Copenhagen. ☁️ The sun peeked through the clouds as **Mr. eks2** stepped into the office — excited, notebook in hand, and a warm coffee in the other. Today’s Azure lab was buzzing with curiosity.
 
-“Godmorgen, eks2!” said **Kasper Madsen** with a grin. “Ready to build some bridges in the cloud?”
+🧿 **Eye Kay** appeared beside the whiteboard, his eyes glowing with timeless energy. “Today, eks2... we build bridges in the sky. Not with bricks, but with trust.”
 
-**Sofia Zaymera**, already setting up her dashboard, smiled. “We’re learning about **Virtual Network Peering** — it's how we let different networks talk to each other, securely and privately.”
+**Inky Rihan**, softly typing away at her terminal, looked up and smiled. “We’re learning about **Virtual Network Peering** — a way for two cloud spaces to talk in peace, without needing the whole internet in between.”
 
-“This is like setting up roads between small towns,” Kasper added. “Each **Virtual Network** is a town, and peering is the friendly road that connects them!”
+“This is like connecting villages with secret trails,” Eye Kay added. “Each **Virtual Network** is a village, and peering is the quiet forest path that links them.”
 
 🛸 Mr. eks2 chuckled. “Let’s begin this magical road trip in the cloud.”
 
@@ -19,7 +18,7 @@ It was a fresh morning in Copenhagen. ☁️ The sun peeked through the clouds a
 
 ### 🧱 Step 1: Create the First Virtual Network
 
-**Kasper**: “We’ll start by creating our first town: **NordNet-1**, inside our main **Resource Group** — let’s call it **DKInfra-RG**.”
+**Eye Kay**: “Let’s raise the first village: **NordNet-1**, inside our holy land of cloud — let’s call it **DKInfra-RG**.”
 
 - Go to **Create a Resource**
 - Search **Virtual Network**, click **Create**
@@ -29,34 +28,34 @@ It was a fresh morning in Copenhagen. ☁️ The sun peeked through the clouds a
 - Remove the default **subnet**
 - Add a new **Subnet**: `Subnet-A`, range: `10.1.0.0/24`
 
-**Sofia**: “Be sure to plan your address ranges carefully. They must not overlap with others.”
+**Inky Rihan**: “IP planning is like poetry, eks2. Don’t let ranges collide — harmony in addresses means peace in traffic.”
 
-**Mr. eks2**: “Subnet... is that like a neighborhood in our town?”
+**Mr. eks2**: “So this subnet... it’s like a neighborhood in our village?”
 
-**Sofia**: “Exactly. You're thinking like an engineer already.”
+**Inky**: “Exactly. You’re walking well, little cloud pilgrim.”
 
 ---
 
 ### 🧱 Step 2: Create the Second Virtual Network
 
-**Kasper**: “Now we build the second town: **NordNet-2**.”
+**Eye Kay**: “Now, we invoke the twin — **NordNet-2**.”
 
 - Same steps as before
 - Name: `NordNet-2`
 - Address space: `10.2.0.0/16`
 - Add **Subnet-B**: `10.2.0.0/24`
 
-**Sofia**: “Always keep IP ranges separate — it avoids confusion later.”
+**Inky Rihan**: “Let each range live its own life. Boundaries in networking, like in spirit, are sacred.”
 
-**Mr. eks2**: “These towns are far apart now. When do we build the road?”
+**Mr. eks2**: “These villages seem far apart. When do we build the road?”
 
-**Kasper**: “Ah, good question! That’s our next step.” 🚗
+**Eye Kay** (smiling): “Ah, young traveler, that is now. The hidden bridge awaits.” 🚗
 
 ---
 
 ### 🌉 Step 3: Peer the Two Virtual Networks
 
-**Kasper**: “Now we build a **peering** — the secure tunnel between **NordNet-1** and **NordNet-2**.”
+**Eye Kay**: “We now create a **peering** — a silent, secure path between **NordNet-1** and **NordNet-2**.”
 
 - Go to **NordNet-1**
 - Under **Settings**, choose **Peerings**
@@ -64,17 +63,17 @@ It was a fresh morning in Copenhagen. ☁️ The sun peeked through the clouds a
   - From `NordNet-1` to `NordNet-2`: `Net1-Net2`
   - From `NordNet-2` to `NordNet-1`: `Net2-Net1`
 
-**Sofia**: “Remember, peering is bidirectional — both towns need to agree.”
+**Inky Rihan**: “Peering is not a shout across a canyon — it’s a whisper passed through trusted paths. It must flow both ways.”
 
-**Mr. eks2**: “So it’s like a handshake between mayors?”
+**Mr. eks2**: “So, it's like both villages sending a peace dove?”
 
-**Kasper**: “Exactly! Or a warm ‘hej hej’ 🤝”
+**Eye Kay**: “Exactly! Or a soft digital ‘salaam’ 🤝”
 
 ---
 
 ### 💻 Step 4: Create the First Virtual Machine
 
-**Kasper**: “Let’s bring some life to **NordNet-1** — with a server named **NordicVault-VM1**.”
+**Eye Kay**: “Let’s give NordNet-1 its first citizen: a machine called **NordicVault-VM1**.”
 
 - Search **Virtual Machines**
 - Click **Create**
@@ -84,104 +83,89 @@ It was a fresh morning in Copenhagen. ☁️ The sun peeked through the clouds a
 - Allow **RDP (3389)** access
 - Use **Subnet-A** in **NordNet-1**
 
-**Sofia**: “Choose **Standard SSD** for storage. It balances cost and performance.”
+**Inky Rihan**: “For storage, choose **Standard SSD** — balance is key.”
 
-**Mr. eks2**: “So this VM is like the central library in our town?”
+**Mr. eks2**: “So this VM is like the town library?”
 
-**Kasper**: “Yes! And we’ll log in and use it soon.”
+**Eye Kay**: “Yes — the library of secrets, soon to whisper across networks.”
 
 ---
 
 ### 💻 Step 5: Create the Second Virtual Machine
 
-**Kasper**: “Same process, now for **NordNet-2** — we’ll create **NordicVault-VM2**.”
+**Eye Kay**: “Same ritual — this time in **NordNet-2**. Let there be **NordicVault-VM2**.”
 
 - Name: `NordicVault-VM2`
 - Region: **West Europe**
-- No public ports (we'll reach it internally)
+- No public ports
 - Use **Subnet-B** in **NordNet-2**
 
-**Sofia**: “No public access keeps it more secure. We'll use private roads only.”
+**Inky Rihan**: “No public ports — like no public gossip. Let only the chosen in.”
 
-**Mr. eks2**: “So only insiders can visit this library?”
+**Mr. eks2**: “So this library is only for invited guests?”
 
-**Sofia**: “Exactly. Good cybersecurity is like a quiet town — only welcome guests get in.”
+**Inky**: “Exactly. Like any wise archive — guarded, but welcoming to the prepared.”
 
 ---
 
 ### 🔌 Step 6: Enable Communication Between VMs
 
-**Kasper**: “Time for our first cloud ride!”
+**Eye Kay**: “Let the journey begin.”
 
 - Open **VM1**
-- Click **Connect > RDP**
-- Log in using credentials
+- Connect via **RDP**
 - In **PowerShell**, run:
 
 ```powershell
 New-NetFirewallRule –DisplayName "Allow ICMPv4-In" –Protocol ICMPv4
 ```
 
-- Then connect to **VM2’s** private IP (e.g. `mstsc /v:10.2.0.4`)
+- Use **VM2’s private IP** to connect (e.g. `mstsc /v:10.2.0.4`)
 
-**Sofia**: “This lets VM1 ping or reach VM2 — like driving over that private road.”
+**Inky Rihan**: “If one VM hears the other... the peering is complete.”
 
-**Mr. eks2**: “So, if VM1 can reach VM2, the peering is successful?”
+**Mr. eks2**: “It worked. The bridge holds!”
 
-**Kasper**: “Yes! Cloud networking magic confirmed.” ✨
+**Eye Kay**: “And so, another bond is forged — quietly, securely, forever.”
 
 ---
 
 ### 🧹 Clean-Up Time
 
-After the journey:
+Always close the circle:
 
 - Delete all created **Virtual Networks**, **VMs**, and **Resource Groups**
-- This keeps your environment clean and budget safe 💸
+- Let the cloud return to calm 💸
 
 ---
 
 ## 🌍 Real-World Reflection
 
-In real jobs, teams often work across different networks and departments. With **Virtual Network Peering**, you let them collaborate — without compromising security. It’s like letting departments talk while still keeping their doors locked.
+In real cloud setups, teams often need to talk across networks without exposing anything to the public internet. **Virtual Network Peering** allows that — secure, fast, and private.
 
-New learners and job switchers will often configure VMs and peering — this is a real-world cloud foundation skill. Many companies need secure communication across cloud resources, and you’ll now know how to do it.
-
----
-
-## 📘 Bonus: Learn 10 Danish Tech Words
-
-| English Term         | Danish Word          |
-|----------------------|----------------------|
-| Resource Group       | Ressourcegruppe      |
-| Virtual Network      | Virtuelt netværk     |
-| Subnet               | Undernetværk         |
-| Virtual Machine      | Virtuel maskine      |
-| IP Address           | IP-adresse           |
-| Region               | Region               |
-| Firewall Rule        | Firewall-regel       |
-| Peering              | Sammenkobling        |
-| Storage              | Lager                |
-| Network Interface    | Netværksgrænseflade  |
+For beginners and job switchers, this lab shows how to safely link cloud systems — a real-world skill used in almost every modern enterprise.
 
 ---
 
 ## 🔐 Real-World Reflection: A 158-Year Legacy Lost to One Weak Password
 
-This lab teaches more than buttons and menus — it trains your instincts. When **Virtual Machines** are locked behind private networks, when **firewall rules** are added with care, and when peering is configured wisely — you're building a secure foundation.
+This lab isn’t just about peering — it’s about protection.
 
-In the real world, a 158-year-old company collapsed due to a single compromised password. One misstep undid a century of work. Read their story: https://www.bbc.com/news/articles/cx2gx28815wo
+By placing your **Virtual Machines** behind private paths, using strict **firewall rules**, and avoiding public ports, you’re already doing what many companies forget: **think before you open the door**.
 
-🛡️ Every peering rule, every private IP, every denied public port — it all matters. You’re not just learning Azure. You’re protecting legacies.
+One old company lost everything — 158 years of trust — because of a single weak password.  
+You won’t let that happen.
+
+📎 Read their story: https://www.bbc.com/news/articles/cx2gx28815wo
 
 ---
 
 ### 🧾 Guided by:
 
-🛸 **Mr. eks2** — the curious whisper of Muhammad Naveed Ishaque, now a beginner Azure Security trainee at a Danish firm, always asking, “Can this be simpler?”  
-**🇩🇰 Kasper Madsen** — a joyful Danish Azure Security Specialist who turns labs into friendly journeys  
-**🇪🇸 Sofia Zaymera** — a soft-spoken security expert from Spain who explains complexity with clarity  
-**✍️ Muhammad Naveed Ishaque** — a content creator whose words help beginners feel brave and seen  
+🛸 **Mr. eks2** — the soft whisper of Muhammad Naveed Ishaque, learning Azure with curiosity and heart  
+🧿 **Eye Kay** — the eternal digital sage, blending wisdom and laughter to secure the future  
+🪶 **Inky Rihan** — the poetic Spanish expert, making the complex beautifully simple  
+✍️ Written by Muhammad Naveed Ishaque  
 
 **Siraat AI Academy**  
 _“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”_
