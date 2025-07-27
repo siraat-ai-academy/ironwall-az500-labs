@@ -102,6 +102,10 @@ You never were.
 
 
 With devotion, vision, and an open terminal,  
-✍️ **Muhammad Naveed Ishaque**  
-_The Whisper Behind eks2_  
-**Founder – Siraat AI Academy**
+✍️ Created & Curated by
+Muhammad Naveed Ishaque
+Content Creator | AI Writer | Narrative Simplifier
+With the inner voice of eks2 — the whisper behind the work.
+
+Siraat AI Academy
+“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”
