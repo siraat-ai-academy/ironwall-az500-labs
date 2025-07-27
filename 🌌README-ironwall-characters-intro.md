@@ -46,11 +46,22 @@ I.K.’s presence is not literal, but spiritual. He is not a voice in the room �
 
 ---
 
-### 💀 Youssef Karim – The Red Team Phantom
-"You don’t learn security until I’ve broken your favorite thing."  
-**Role:** Ethical Hacker / Red Team  
-**Strength:** Breaches, bypasses, boundary-pushing  
-**Perfect for:** Attack simulation, security testing, ethical exploits
+## 💀 Inki Rihan – The Red Team Phantom
+
+*"You don’t learn security until I’ve broken your favorite thing."*
+
+- **Role:** Ethical Hacker / Red Team
+- **Strength:** Breaches, bypasses, boundary-pushing
+- **Perfect for:** Attack simulation, security testing, ethical exploits
+
+Inki Rihan is the elusive force behind the team’s offensive security operations. As the Red Team Phantom, he specializes in ethical hacking—probing defenses, uncovering hidden vulnerabilities, and simulating attacks to strengthen the fortress from within.
+
+With a calm and calculated approach, Inki blends the art of stealth with cutting-edge cyber techniques. His work happens in the shadows, where he silently breaches systems to reveal their weaknesses before real adversaries can exploit them.
+
+Inki’s poetic name reflects his dual identity — *Inki*, like ink, marks knowledge and subtle danger; *Rihan*, meaning fragrance, signifies presence felt but never grasped. A digital ghost who smells of curiosity and mastery.
+
+On the team, Inki’s phantom presence keeps everyone on their toes, reminding them that security is only as strong as the threats you prepare for.
+
 
 ---
 
