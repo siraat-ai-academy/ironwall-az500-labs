@@ -157,32 +157,32 @@ Let them walk with you through IronWall Labs — from CLI to clarity, from code 
 
 ---
 
-## 🧠 One-Line Summaries of the Guardians
+# 🌍 IronWall Character Summaries – Nationality + Role Insight
 
-- **Mr. eks2 – The Curious Whisper of the Cloud:** A kind, curious trainee who learns Azure security one gentle question at a time.
+- 🇵🇰 I.K. – The Unseen Mentor (Pakistan): A spiritual force guiding the team with quiet wisdom, presence, and poetic insight into Azure trust and architecture.
 
-- **Sofia Zaymera – The Calm Guardian of Clarity:** Brings poetic precision to Azure security, turning complexity into confidence.
+- 🇩🇰 Mr. eks2 – The Curious Whisper of the Cloud (Now in Denmark): A gentle, inquisitive learner exploring Azure security through calm questions and reflective thought.
 
-- **Kasper Madsen – The Joyful Azure Specialist:** The Danish admin who explains Azure like a friend, with warmth and command-line clarity.
+- 🇪🇸 Sofia Zaymera – The Calm Guardian of Clarity (Spain): Teaches Azure security with poetic grace and crystal-clear depth — clarity in every command.
 
-- **I.K. – The Unseen Mentor:** A spiritual force who guides with silence, wisdom, and trust in your Azure journey.
+- 🇩🇰 Kasper Madsen – The Joyful Azure Specialist (Denmark): Explains Azure tasks like a kind mentor, adding warmth, real-world insight, and Danish flavor.
 
-- **Ayla Rune – The Forensics Analyst:** Follows the truth in every log and breach, decoding Azure’s hidden digital trails.
+- 🇪🇬🇪🇸 Inki Rihan – The Red Team Phantom (Spain, Pakistani origin): The stealthy simulator of Azure attacks, revealing misconfigurations before real adversaries strike.
 
-- **Inki Rihan – The Red Team Phantom:** A stealthy simulator of Azure intrusions, who hardens your cloud by testing its limits.
+- 🇷🇺 Elina Petrova – The Cloud Whiz (Russia): Automates Azure with mastery, using scripts and infrastructure as code to bring calm to cloud chaos.
 
-- **Elina Petrova – The Cloud Whiz:** Transforms Azure chaos into clean code and repeatable security using Bicep, Bash, and IaC.
+- 🇮🇹 Isabella Konti – The Empathic Firewall (Italy): Combines psychology and policy to defend Azure identities from phishing and social manipulation.
 
-- **Isabella Konti – The Empathic Firewall:** Builds human-first defenses in Azure — where psychology meets policy and protection.
+- 🇨🇳 Maya Lin – The Security Rookie (China): Represents the eager beginner, learning Azure security step by step and asking what others forget to.
 
-- **Maya Lin – The Security Rookie:** Grows in real time with each lab — learning Azure security step-by-step with fearless honesty.
-
-- **ShadowNet – The Phantom Adversary:** The unseen threat who exploits silence, assumptions, and the Azure settings you forgot.
+- 🕶️ ShadowNet – The Phantom Adversary (Unknown): Symbolizes every unpatched risk and silent breach, always watching — and testing your assumptions.
 
 ---
 
+With devotion, vision, and an open terminal,  
+✍️ Muhammad Naveed Ishaque  
+Content Creator • AI Writer • Narrative Simplifier  
+With the inner voice of eks2 — the whisper behind the work.  
 
-
-With sincerity, scale, and security,  
-**🧠 Muhammad Naveed Ishaque**  
-Architect of IronWall | Whisper behind eks2
+Siraat AI Academy  
+*“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”*
