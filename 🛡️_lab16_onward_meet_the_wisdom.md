@@ -81,7 +81,6 @@ Let them walk beside you.
 You are not alone on this path.  
 You never were.
 
-—
 
 ---
 
@@ -98,7 +97,8 @@ You never were.
 - **Maya Lin** – The eager rookie, curious like you, growing lab by lab.
 - **ShadowNet** – The nameless adversary, always near, never seen.
 
----
+—
+
 
 
 With devotion, vision, and an open terminal,  
