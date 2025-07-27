@@ -8,7 +8,7 @@ Welcome to the **IronWall Universe** — a living, breathing cybersecurity adven
 
 ---
 
-## 🧭 Core Team (Appearing from Lab 01 Onwards)
+## 🧭 Core Team (Appearing from Lab 16 Onwards)
 
 ### 🧙‍♂️ IK – The Unseen Mentor
 - Inspired by the spirit of Ibne Safi — that’s poetry in digital security.
