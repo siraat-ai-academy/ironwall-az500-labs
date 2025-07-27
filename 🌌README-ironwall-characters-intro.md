@@ -180,10 +180,13 @@ Let them walk with you through IronWall Labs — from CLI to clarity, from code 
 ---
 
 With devotion, vision, and an open terminal,  
-✍️ **Muhammad Naveed Ishaque**  
-Content Creator • AI Writer • Narrative Simplifier  
-With the inner voice of **eks2** — the whisper behind the work.  
+
+
+✍️ Created & Curated by  
+**Muhammad Naveed Ishaque**  
+Content Creator | AI Writer | Narrative Simplifier  
+_With the inner voice of eks2 — the whisper behind the work._
 
 **Siraat AI Academy**  
-*“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”*
+_“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”_
 
