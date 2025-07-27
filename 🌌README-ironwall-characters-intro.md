@@ -51,17 +51,21 @@ From detecting suspicious identity usage via **Azure AD Sign-In Logs**, to corre
 
 ---
 
-### 💀 Inki Rihan – The Red Team Phantom
+### 💀 Inki Rihan – The Red Team Phantom 
+*"You don’t learn security until I’ve broken your favorite thing."*
 
-"You don’t learn security until I’ve broken your favorite thing."
+- **Role:** Ethical Hacker / Red Team Specialist (Azure)  
+- **Strength:** Simulated attacks, privilege escalation discovery, boundary-pushing  
+- **Perfect for:** Exposing RBAC misconfigurations, bypassing NSGs, and privilege abuse in Azure  
 
-- **Role:** Ethical Hacker / Red Team
-- **Strength:** Breaches, bypasses, boundary-pushing
-- **Perfect for:** Simulating Azure attacks, exploiting misconfigurations, revealing privilege escalations
+Inki Rihan is the elusive force behind the team’s offensive security strategy. Within the Azure ecosystem, she simulates real-world intrusions — testing everything from Azure Defender alerts to bypassing conditional access policies.
 
-Inki Rihan is the elusive force behind the team’s offensive security operations. In Azure, he runs **simulated attacks** on Identity Protection, Key Vault access, and Role-Based Access Control. His tests reveal blind spots before real attackers do.
+Her strikes aren’t random — they’re surgical. She targets overlooked service principals, insecure storage accounts, and vulnerable automation runbooks. If your cloud has a weak spot, she’ll find it — quietly.
 
-His name carries weight — *Inki*, like silent ink, traces secrets; *Rihan*, like fragrance, lingers unseen. Inki slips past NSGs, probes Just-In-Time access, and manipulates unmanaged endpoints. Each exploit is a lesson, every breach a wake-up call.
+Her name is a paradox: *Inki*, like quiet ink, uncovers hidden truths; *Rihan*, a lingering essence, marks her presence long after she’s gone. She doesn't just hack — she reveals. She doesn’t just test — she transforms your security posture.
+
+Inki reminds us: **you’re only secure if you’ve survived her tests.**
+
 
 ---
 
