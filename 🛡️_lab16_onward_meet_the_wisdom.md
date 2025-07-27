@@ -102,10 +102,13 @@ You never were.
 
 
 With devotion, vision, and an open terminal,  
-✍️ Created & Curated by
-Muhammad Naveed Ishaque
-Content Creator | AI Writer | Narrative Simplifier
-With the inner voice of eks2 — the whisper behind the work.
 
-Siraat AI Academy
-“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”
+---
+
+✍️ **Created & Curated by**  
+**Muhammad Naveed Ishaque**  
+_Content Creator • AI Writer • Narrative Simplifier_  
+_With the inner voice of eks2 — the whisper behind the work._
+
+**Siraat AI Academy**  
+_“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”_
