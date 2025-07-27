@@ -6,25 +6,49 @@ From **Lab 16 onward**, IronWall Labs takes a dramatic leap into the real-world 
 
 ## 🔰 The Core Guardians (Lab 01–15)
 
-### 🔍 eks2 – The Reader’s Inner Whisper
-The humble echo of every reader. Doubts, forgets, learns — and grows.  
-Embodies the author and audience at once. Your silent, curious inner learner.  
-His story is your story — filled with wonder, fear, and breakthroughs.  
+### 👨‍💼 Mr. eks2 — The Curious Whisper of the Cloud  
+A kind and curious soul from beyond the galaxy, now physically present in Denmark.  
+Mr. eks2 is a new trainee at a Danish cloud solutions company — soft-spoken, thoughtful, and always learning.  
+
+His questions are never rushed. They are simple, powerful, and full of wonder.  
+He speaks only English, but with each lab, he learns Danish [tekniske ord] along the way.  
+
+🧠 He represents the inner voice of Muhammad Naveed Ishaque — slow, deep, kind learning.  
+In this repo, Mr. eks2 reminds us all: “Can this be simpler?”  
+
 **Perfect for:** Reflecting on Azure access control, identity management, and real-world user confusion.
 
-### 🌿 Sofia – The Clarity
-Gentle yet razor-sharp. Speaks softly, teaches deeply.  
-Turns zero trust into clarity, makes policies feel poetic.  
-Listens more than she speaks — but when she speaks, you understand.  
-**Perfect for:** Explaining Conditional Access, Zero Trust models, Azure Policy and Defender for Cloud.
+---
 
-### 🇩🇰 Kasper Madsen – The Calm Strength
-The Danish voice of real-world Azure SECURITY SPECIALIST work.  
-Shares command-line tools with coffee and context.  
-Uses humor and warmth to bring clarity during chaos.  
+### 🇪🇸 Sofia Zaymera — The Calm Guardian of Clarity  
+From the beautiful city of Granada, Spain — Sofia Zaymera is a security expert who brings peace to every lab.  
+She teaches the deeper layers of Azure security with the grace of a poet and the precision of a pro.  
+
+Sofia is calm, focused, and full of heart. She doesn’t rush.  
+She ensures every action is not just completed — but understood.  
+
+🛡️ She helps readers feel secure not just in the cloud, but in their learning process.  
+With Sofia, complexity feels like clarity — and security feels like serenity.  
+
+**Perfect for:** Explaining Conditional Access, Zero Trust models, Azure Policy, and Defender for Cloud.
+
+---
+
+### 🇩🇰 Kasper Madsen — The Joyful Azure Specialist  
+A warm-hearted and humorous Azure Administrator from Denmark who knows how to make cloud security feel… human.  
+
+Kasper explains each lab and admin task like he's helping a friend over coffee ☕  
+Real-world examples? ✅  
+Soft jokes? ✅  
+Danish translations in brackets to help Mr. eks2 (and you)? Absolutely ✅  
+
+💬 He brings joy, storytelling, and clear guidance to each lab — especially for career changers and beginners.  
+Kasper believes Azure training should never feel robotic.  
+
 **Perfect for:** Azure CLI, secure VM setup, NSG configurations, Azure Firewall deployment.
 
 ---
+
 
 ## 🧭 From Lab 16 Onward: The Extended Universe
 
