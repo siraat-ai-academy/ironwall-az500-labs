@@ -125,6 +125,14 @@ Mr. eks2 leaned back with a sigh of joy. "That was a great lab," he smiled. "But
 
 ---
 
+## 📘 Final Reflection by Mr. eks2
+
+“Wow,” whispered Mr. eks2, finishing his notes, “Cloud tools are less scary when explained like this.”
+
+He underlined **Ressourcegruppe** and **Virtuel maskine** in his notebook, smiling. “These Danish words… they’re growing on me.”
+
+---
+
 ## 📘 Bonus: Learn 10 Danish Tech Words
 
 | English Term         | Danish Word          |
@@ -142,13 +150,7 @@ Mr. eks2 leaned back with a sigh of joy. "That was a great lab," he smiled. "But
 
 ---
 
-## 📘 Final Reflection by Mr. eks2
 
-“Wow,” whispered Mr. eks2, finishing his notes, “Cloud tools are less scary when explained like this.”
-
-He underlined **Ressourcegruppe** and **Virtuel maskine** in his notebook, smiling. “These Danish words… they’re growing on me.”
-
----
 
 ### 🔐 Real-World Reflection: A 158-Year Legacy Lost to One Weak Password
 
