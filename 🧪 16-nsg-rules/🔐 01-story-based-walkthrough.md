@@ -1,190 +1,157 @@
-# 🛡️ Lab 16: Create and Understand NSG Rules in Azure
+# 🛡️ Understand Network Security Group Rules
 
-## 🔮 Scenario Setup – Enter the Lab with the Guardians
-
-It’s a calm morning in Copenhagen ☁️.  
-🛸 **Mr. eks2** arrives early at the virtual Azure lab — a little nervous, but curious as ever. His eyes carry questions; his heart carries wonder.  
-
-🇩🇰 **Kasper Madsen** waves from the CLI terminal, coffee in hand:  
-_"Ah, eks2! Today we explore how **Network Security Groups** work. Not too tricky — just little locks for big doors."_ ☕  
-
-🇪🇸 **Sofia Zaymera** gently nods:  
-_"This is about learning how to allow the right traffic, and block the rest. We’re setting digital gates to protect your castle."_ 🏰  
-
-From the air vents of logic and code, 🇵🇰 **I.K.** whispers:  
-_"Let no packet pass that lacks intention."_ 🕊️  
-
-Suddenly, 🇮🇹 **Isabella Konti** steps in, calmly:  
-_"Security begins with who can talk to your machines. And sometimes, who can’t."_ 🛡️  
-
-🕶️ In the background, the Azure logs show a shadowy blip.  
-ShadowNet just tried to probe port 3389.  
-But not today.
+### 💻 Lab 16 – IronWall-az500-labs Series  
+**Beginner-Friendly Azure Security Lab**  
+⏱️ **Duration**: 1 hour
 
 ---
 
-## 🔑 What This Lab Prepares You For:
+## 🔮 Scenario Setup
 
-• How to create a **Virtual Machine [virtuel maskine]** securely  
-• What **NSG (Network Security Group) [netværkssikkerhedsgruppe]** rules do — and how to create them  
-• Allowing just enough access (like **RDP** and **HTTP**) to make things work, but no more  
-• Hands-on skills that help real Azure teams protect workloads from unknown threats  
+Mr. Eks2 arrived early this morning to the digital fortress training grounds of NordicCloud Denmark. The skies over Copenhagen were blue, and so was the Azure portal he just opened.
+
+As always, **Kasper Madsen**, the ancient cyber-sufi, stood beside a whiteboard scribbled with firewall metaphors.
+
+“Today,” Kasper whispered, “we learn to guard the gates.”
+
+**Sofia Zaymera** joined with a warm smile, holding her laptop and some cinnamon rolls. “This lab is about creating rules that protect our Virtual Machine — like deciding who can knock on the digital door.”
+
+Mr. Eks2 blinked thoughtfully. “So… we’re learning how to say yes or no to visitors?”
+
+“Yes,” Sofia nodded. “With love… and Network Security Groups.”
 
 ---
 
-## 🛠️ Step-by-Step with Story & Dialogues — Featuring the Guardians of IronWall
+## 🛠️ Step-by-Step with Story & Dialogues
 
----
+### 🔧 Step 1: Create a Virtual Machine
 
-### ☁️ Step 1: Create a Virtual Machine (Securely)
+👨‍💼 **Mr. Eks2**: “How do we begin, Kasper?”
 
-Mr. eks2’s screen lights up:  
-_"So, we’re making a server... but without opening any doors yet?"_
+🇩🇰 **Kasper**: “Every tale begins with a home. Let’s build our digital house — a **Virtual Machine** inside a **ressourcegruppe** called **NordicFortress-RG**.”
 
-**Kasper** nods:  
-_"Yes! We create it first, then decide who can knock."_
+- Go to **Virtual Machines** in the Azure portal.
+- Click **+ Create > Azure virtual machine**.
+- Fill in these details:
+  - **Resource group**: NordicFortress-RG
+  - **VM name**: NordicVault-VM01
+  - **Region**: West Europe
+  - **Image**: Windows Server 2022 Datacenter – Azure Edition – Gen2
+  - **Size**: Standard_B2s
+  - **Username**: A secure username
+  - **Password**: A strong password
+  - **Public inbound ports**: None
+  - **Disk type**: Standard SSD
 
-1. Go to **Virtual Machines** in the Azure portal.
-2. Click **+ Create > Azure virtual machine**.
-3. Set these values:
-   - **Resource Group**: `DKInfraGroup`
-   - **VM Name**: `NordicVault-VM`
-   - **Region**: West Europe
-   - **Image**: Windows Server 2022 Datacenter
-   - **Size**: Standard_B2s
-   - **Username & Password**: Use a strong, secure password
-   - **Public inbound ports**: Set to **None**
-4. Choose **Standard SSD** for the OS Disk.
-5. Disable **Boot diagnostics**.
-6. Click **Review + Create**, then **Create**.
+🧘 **Sofia**: “Keep **Boot diagnostics** off for now — we’re focusing only on access control.”
 
-🛸 Mr. eks2 blinks:  
-_"So... it exists, but it's isolated?"_
-
-🇪🇸 Sofia smiles:  
-_"Exactly. Right now, it's safe — like a house with no keys handed out yet."_
+Click **Review + create**, then **Create**.
 
 ---
 
 ### 🔐 Step 2: Create an NSG Rule to Allow RDP (Port 3389)
 
-Now we make a safe exception — to allow you in via **Remote Desktop (RDP)**.
+👨‍💼 **Mr. Eks2**: “Can anyone visit our home yet?”
 
-1. Go to **Virtual Machines > NordicVault-VM > Networking**.
-2. Click **+ Add inbound port rule**.
-3. Set:
-   - **Source**: Service Tag
-   - **Service Tag**: Internet
-   - **Destination**: Any
-   - **Service**: RDP
-   - **Action**: Allow
-   - **Priority**: 100
-   - **Name**: `Allow-RDP-3389`
-4. Click **Add**.
+🇩🇰 **Kasper**: “Not yet. No one knows where the door is. Let’s open the gate — gently.”
 
-🇩🇰 Kasper winks:  
-_"Only one small gate open. And just for you."_  
+- In **Virtual Machines**, choose **NordicVault-VM01**.
+- Go to **Networking**.
+- Click **+ Add inbound port rule**.
+  - **Source**: Service Tag
+  - **Source service tag**: Internet
+  - **Destination**: Any
+  - **Service**: RDP
+  - **Action**: Allow
+  - **Priority**: 100
+  - **Name**: allow_rdp_3389
+- Click **Add**.
 
-🕶️ ShadowNet watches. But the door only opens when we say so.
-
----
-
-### 💻 Step 3: Connect to the Virtual Machine
-
-1. Go to **Virtual Machines > NordicVault-VM > Overview**.
-2. Click **Connect > RDP > Download RDP File**.
-3. Use your username/password to log in.
-
-🛸 Mr. eks2:  
-_"It worked! I’m inside the machine… but only because we opened the right port."_
+💡 **Sofia**: “Only allow this when needed. Port 3389 is often targeted.”
 
 ---
 
-### 🌐 Step 4: Install IIS Web Server and Enable HTTP
+### 🔗 Step 3: Connect via RDP
 
-1. Inside the VM:
-   - Open **Server Manager**
-   - Click **Add Roles and Features**
-   - Select **Web Server (IIS)** under Server Roles
-   - Click **Next** until you reach **Install**
-2. After install:
-   - Open **Edge**
-   - Go to `http://localhost` — and celebrate! 🎉
+👨‍💼 **Mr. Eks2**: “So now I can enter?”
 
-🇨🇳 Maya asks:  
-_"Why install IIS?"_  
-🇪🇸 Sofia replies:  
-_"To test if we can allow public web traffic — safely."_  
+- Go to the **Overview** tab of the VM.
+- Click **Connect > RDP > Download RDP File**.
+- Open the file and use your credentials to log in.
+
+📚 **Kasper**: “This is how admins enter their kingdom.”
 
 ---
 
-### 🔓 Step 5: Allow HTTP Traffic (Port 80)
+### 🌐 Step 4: Enable HTTP and Install IIS
 
-1. Back in Azure portal:
-   - Go to **Virtual Machines > NordicVault-VM > Networking**
-   - Click **+ Add inbound port rule**
-2. Set:
-   - **Source**: Service Tag
-   - **Service Tag**: Internet
-   - **Destination Port**: 80
-   - **Action**: Allow
-   - **Priority**: 110
-   - **Name**: `Allow-HTTP-80`
-3. Click **Add**
+👨‍💼 **Mr. Eks2**: “Can our VM greet the world now?”
 
-💬 Isabella:  
-_"Now your site can be seen — but only on your terms."_  
+🇪🇸 **Sofia**: “Not yet. First, we’ll teach it to speak Web — using **IIS**.”
+
+- On the VM, open **Server Manager > Add Roles and Features**.
+- Click through until you reach **Server Roles**.
+- Select **Web Server (IIS)**.
+- Continue and click **Install**.
+
+After it installs, open **Microsoft Edge** and visit `http://localhost`.
+
+📜 **Kasper**: “Now it knows the language of the web.”
 
 ---
 
-### 🌍 Step 6: Test Web Access
+### 🌐 Step 5: Create NSG Rule to Allow HTTP (Port 80)
 
-1. In **Networking**, copy the **public IP**.
-2. In a browser, go to `http://<your-ip>`  
-   ✅ If the default IIS page appears, you did it!
+- Go to **Virtual Machines > NordicVault-VM01 > Networking**.
+- Click **+ Add inbound port rule**.
+  - **Source**: Service Tag
+  - **Source service tag**: Internet
+  - **Destination**: Any
+  - **Port**: 80
+  - **Action**: Allow
+  - **Priority**: 110
+  - **Name**: allow_http_80
 
-🇩🇰 Kasper laughs:  
-_"From no access to safe access — like giving house keys to only the right guests."_  
+💡 **Sofia**: “Now anyone can view your VM’s web page — just like a real website.”
 
 ---
 
-### 🧹 Final Step: Clean Up
+### 🌍 Step 6: Test the Website
 
-Always tidy up:
-- Delete the **Virtual Machine**, **NSG**, and **Resource Group**.
+👨‍💼 **Mr. Eks2**: “Can I see it from Earth now?”
 
-🛸 Mr. eks2 reflects:  
-_"Learning is good. But cleaning up after learning is security."_
+- In **Networking**, copy the **public IP address**.
+- Paste it into a browser: `http://<public-ip>`.
+
+You should see the **IIS welcome page**! 🎉
+
+🇩🇰 **Kasper**: “You’ve built and protected your first digital hall.”
+
+🧹 Don’t forget to delete the VM and other resources.
 
 ---
 
 ## 🌍 Real-World Reflection
 
-In real IT jobs, you’ll often need to allow some traffic (like RDP or HTTP) — but only in safe, intentional ways. This lab helps new learners and job switchers understand how Azure protects systems by default — and how to open just the right windows without risking the whole house. It's practical, real, and deeply needed.
+Network Security Groups (NSGs) are like digital gatekeepers. In real cloud jobs, configuring these rules correctly means keeping out threats while letting the right people in. This lab teaches how to think like a security architect — one port, one permission at a time.
 
 ---
 
-## 🔐 Real-World Reflection: A 158-Year Legacy Lost to One Weak Password
+### 🔐 Real-World Reflection: A 158-Year Legacy Lost to One Weak Password
 
-In July 2023, a 158-year-old company vanished because of one single weak password.  
-Someone got in — and no one noticed until it was too late.  
-This lab teaches the opposite: watch the gates, set clear access rules, and only open what you must.
+In 2023, a 158-year-old British firm collapsed after a single compromised password let attackers roam free inside its systems. A simple misstep — no MFA, no alerts — and the legacy was gone.
 
-Because one misconfigured **NSG rule** or open port could invite ShadowNet in.  
-Small steps — like controlling **RDP** and **HTTP** access — can save an entire legacy.
-
-📎 [BBC Story – A 158-Year Legacy Lost](https://www.bbc.com/news/articles/cx2gx28815wo)
+By practicing **NSG rules**, **remote access control**, and **minimal exposure**, you are learning to protect not just data, but entire lifelines. Every secure setting matters.  
+Read more here: [BBC Article](https://www.bbc.com/news/articles/cx2gx28815wo)
 
 ---
 
-### 🧾 Guided by:
+## 🧾 Guided by:
 
-From the poetic wisdom of 🇵🇰 **I.K.**, to the gentle curiosity of 🇩🇰 🛸 **Mr. eks2**, and the clear guidance of 🇪🇸 **Sofia**, this lab was crafted for you.  
-Add the kindness of 🇩🇰 **Kasper**, the protection of 🇮🇹 **Isabella**, the code magic of 🇷🇺 **Elina**, the questions of 🇨🇳 **Maya**, and the vigilance against 🕶️ **ShadowNet** — and you have more than a lab. You have a shield.
-
-✍️ Created & Curated by  
-**Muhammad Naveed Ishaque**  
-_With the inner voice of eks2 — the whisper behind the work._
+🛸 **Mr. Eks2** — the curious whisper of Muhammad Naveed Ishaque, now a beginner Azure Security trainee at a Danish firm, always asking, “Can this be simpler?”  
+🇩🇰 **Kasper Madsen** — a timeless cyber-sufi — a guardian of digital wisdom across centuries.  
+🇪🇸 **Sofia Zaymera** — a soft-spoken security expert from Spain who explains complexity with clarity.  
+✍️ **Muhammad Naveed Ishaque** — a content creator whose words help beginners feel brave and seen.
 
 **Siraat AI Academy**  
 _“The Straight Path — Empowering minds with clarity, illuminating paths with purpose.”_
