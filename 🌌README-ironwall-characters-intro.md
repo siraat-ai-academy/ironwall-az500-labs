@@ -157,6 +157,32 @@ Let them walk with you through IronWall Labs — from CLI to clarity, from code 
 
 ---
 
+## 🧠 One-Line Summaries of the Guardians
+
+- **Mr. eks2 – The Curious Whisper of the Cloud:** A kind, curious trainee who learns Azure security one gentle question at a time.
+
+- **Sofia Zaymera – The Calm Guardian of Clarity:** Brings poetic precision to Azure security, turning complexity into confidence.
+
+- **Kasper Madsen – The Joyful Azure Specialist:** The Danish admin who explains Azure like a friend, with warmth and command-line clarity.
+
+- **I.K. – The Unseen Mentor:** A spiritual force who guides with silence, wisdom, and trust in your Azure journey.
+
+- **Ayla Rune – The Forensics Analyst:** Follows the truth in every log and breach, decoding Azure’s hidden digital trails.
+
+- **Inki Rihan – The Red Team Phantom:** A stealthy simulator of Azure intrusions, who hardens your cloud by testing its limits.
+
+- **Elina Petrova – The Cloud Whiz:** Transforms Azure chaos into clean code and repeatable security using Bicep, Bash, and IaC.
+
+- **Isabella Konti – The Empathic Firewall:** Builds human-first defenses in Azure — where psychology meets policy and protection.
+
+- **Maya Lin – The Security Rookie:** Grows in real time with each lab — learning Azure security step-by-step with fearless honesty.
+
+- **ShadowNet – The Phantom Adversary:** The unseen threat who exploits silence, assumptions, and the Azure settings you forgot.
+
+---
+
+
+
 With sincerity, scale, and security,  
 **🧠 Muhammad Naveed Ishaque**  
 Architect of IronWall | Whisper behind eks2
