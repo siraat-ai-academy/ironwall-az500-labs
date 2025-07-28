@@ -1,8 +1,9 @@
 # 📘 Danish Vocabulary Table – Lab 18  
 
+🌱 *"Learn the language, understand security — softly, through the thoughtful journey of Eks2."*
+
 🌿 **"Zaban bhi seekho, security bhi samjho — Eks2 ke saath."**
 
-🌱 *"Learn the language, understand security — softly, through the thoughtful journey of Eks2."*
 
 
 ---
