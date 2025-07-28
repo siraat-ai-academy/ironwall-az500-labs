@@ -56,7 +56,6 @@ In real life, a 158-year-old company fell due to a single compromised password. 
 
 ---
 
-🧾 Guided by:  
 ✍️ Created & Curated by  
 **Muhammad Naveed Ishaque**  
 _Content Creator | AI Writer | Narrative Simplifier_  
