@@ -1,47 +1,81 @@
-
-# 🧠 Reflections After the Lab — Eks2’s Dialogue with ShadowNet  
-### Lab 17: Creating an Application Gateway
-
----
-
-## 🕶️ ShadowNet Appears…  
-*Scene: The screen is still. The Application Gateway is running. Yet something… breathes in the silence.*
-
-**Eks2:** I created a gateway for traffic. Clean, efficient. But is it secure?  
-**ShadowNet:** You created a gateway, yes. But for whom?  
-**Eks2:** I chose port 80. Everyone uses it.  
-**ShadowNet:** Everyone… including me.  
-**Eks2:** But there was no login screen. No passwords exposed.  
-**ShadowNet:** And yet… I walk where the headers forget to encrypt.  
-**Eks2:** I limited subnets. I assigned rules.  
-**ShadowNet:** But did you _observe_ them? Or did you _trust_ defaults?  
-**Eks2:** My backend pool was internal. No public exposure.  
-**ShadowNet:** And yet, every RDP you allow… echoes across misconfigured NSGs.  
-**Eks2:** Then teach me.  
-**ShadowNet:** I do not teach. I appear… in what you forget to question.  
-**Eks2:** I will remember next time.  
-**ShadowNet:** Good. Because I never left. I just waited in the quiet.
+# 🧠 Threat Modelling Dialogue — Mr. Eks2 Meets ShadowNet
+### ✨ Human-centered security reflection through story, emotion, and insight
 
 ---
 
-## 🛡️ Eks2's Threat Modelling Notes
-
-| 🔍 Security Element        | 💭 Eks2’s Reflection                                          |
-|---------------------------|---------------------------------------------------------------|
-| 🔓 What was exposed        | Public-facing HTTP port via **Application Gateway**          |
-| ❗ Dangerous assumption     | “Only HTTPS matters for sensitive apps”                      |
-| 🛠️ How I’ll improve        | Use **HTTPS with certificates**, enable **WAF**, monitor logs |
-| 🕶️ ShadowNet’s silent lesson | “Your cloud listens. So does the enemy.”                    |
+## 📘 Section Title:
+### “Reflections After the Lab — Eks2’s Dialogue with ShadowNet”
 
 ---
 
-> 🕶️ **ShadowNet whispers:**  
-> “I do not crash your system. I drift through its comfort zones.”
+## 🔍 Introduction
+At the end of **Lab 17: Creating an Application Gateway**, all steps were completed successfully. The **Virtual Network** was built. **VMs** were deployed. **IIS roles** configured. The **Application Gateway** was routing traffic perfectly.
+
+And yet, as the browser confirmed success, a cold breeze passed through the digital silence.
+
+There was no error.
+There was no alert.
+But there was a presence.
+
+In that moment, Mr. Eks2 felt it again:
+
+**ShadowNet**. 
+
+Not a bug. Not a person. But the echo of unchecked assumptions. 
+
+It doesn’t break in. 
+It waits for us to skip a step, to leave a port too open, or trust a default too blindly.
+
+Tonight, it returned.
 
 ---
 
-### ✒️ Closing Signature
-✍️ Created & Curated by  
+## 🎭 Dialogue: Mr. Eks2 vs. ShadowNet
+
+> **Eks2:** I followed every step. The gateway works. So why are you here?
+
+> **ShadowNet:** Because you followed... quickly.
+
+> **Eks2:** What do you mean?
+
+> **ShadowNet:** Two public-facing VMs. Both reachable. No WAF. No custom probe. You built a path...
+
+> **Eks2:** ...and forgot to guard it.
+
+> **ShadowNet:** You let the browser tell you it's safe. But not the logs.
+
+> **Eks2:** I was going to monitor it tomorrow.
+
+> **ShadowNet:** Tomorrow is when I move in.
+
+> **Eks2:** Not this time.
+
+> **ShadowNet:** We'll see. Next time... hide the webroot. Encrypt the path.
+
+> **Eks2:** I will. And I’ll check every default before I hit ‘Create.’
+
+> **ShadowNet:** Now you’re thinking like a defender.
+
+---
+
+## 🛡️ Threat Modelling Reflection Table
+
+| 🔍 **Security Element** | 💭 **Eks2’s Reflection** |
+|---------------------|----------------------|
+| 🔓 What was exposed | Public VMs with open HTTP & RDP ports |
+| ❗ Dangerous assumption | “It’s just a quick test environment.” |
+| 🛠️ How I’ll improve | Use private subnets, lock NSGs, apply WAF, review logs |
+| 🕶️ ShadowNet’s silent lesson | “The gateway you build for others, I walk through first.” |
+
+---
+
+## 🧠 Bonus Ending Quote by ShadowNet
+> “I am not malware. I am misjudgment. 
+Every default left unchanged is a door I remember.”
+
+---
+
+### ✒️ Created & Curated by
 **Muhammad Naveed Ishaque**  
 _Content Creator | AI Writer | Narrative Simplifier_  
 _With the inner voice of Eks2 — the whisper behind the work._
