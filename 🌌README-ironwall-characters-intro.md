@@ -73,14 +73,14 @@ Ayla’s Norwegian precision and minimalism drive her quiet pursuit of digital t
 
 ---
 
-## 💀 Inki Rihan – The Red Team Phantom (🇪🇸 Spain, Pakistani Origin)
+## 💀 Inky Rihan – The Red Team Phantom (🇪🇸 Spain, Pakistani Origin)
 *"You don’t learn security until I’ve broken your favorite thing."*
 
 - **Role:** Ethical Hacker / Red Team Specialist (Azure)  
 - **Strength:** Simulated attacks, privilege escalation discovery, boundary-pushing  
 - **Perfect for:** Exposing RBAC misconfigurations, bypassing NSGs, and privilege abuse in Azure  
 
-A fusion of **Spanish stealth** and **Pakistani depth**, Inki simulates real-world Azure intrusions. She targets overlooked service principals, insecure storage accounts, and automation gaps. Her name leaves a mark — unseen, unforgettable.
+A fusion of **Spanish stealth** and **Pakistani depth**, Inky simulates real-world Azure intrusions. She targets overlooked service principals, insecure storage accounts, and automation gaps. Her name leaves a mark — unseen, unforgettable.
 
 ---
 
@@ -148,7 +148,7 @@ Let them walk with you through IronWall Labs — from CLI to clarity, from code 
 
 - 🇩🇰 **Kasper Madsen – The Joyful Azure Specialist** (Denmark): A **cheerful admin mentor** using **command-line tools**, coffee-talk guidance, and real-world Azure scenarios with warmth.
 
-- 🇪🇸 **Inki Rihan – The Red Team Phantom** (Spain, Pakistani origin): A **stealthy ethical hacker** simulating Azure intrusions to reveal **misconfigurations, privilege abuse**, and unseen risk vectors.
+- 🇪🇸 **Inky Rihan – The Red Team Phantom** (Spain, Pakistani origin): A **stealthy ethical hacker** simulating Azure intrusions to reveal **misconfigurations, privilege abuse**, and unseen risk vectors.
 
 - 🇷🇺 **Elina Petrova – The Cloud Whiz** (Russia): An **automation genius** who tames Azure complexity using **IaC, CLI, Bicep**, and scripts that bring order to chaos.
 
