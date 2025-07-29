@@ -9,7 +9,7 @@
 | 🌍 Character       | 🎭 Role Description |
 |-------------------|--------------------|
 | 🇵🇰 **I.K.** | The Unseen Mentor — quiet, poetic strategist of trust and security. |
-| 🇩🇰 **Mr. eks2** | The Curious Whisper of the Cloud — new in Denmark, soft-spoken learner. |
+| 🇩🇰 **Mr. Eks2** | The Curious Whisper of the Cloud — new in Denmark, soft-spoken learner. |
 | 🇪🇸 **Sofia Zaymera** | The Calm Guardian of Clarity — makes Azure feel like gentle poetry. |
 | 🇩🇰 **Kasper Madsen** | The Joyful Admin — explains with smiles, scripts, and strong coffee. |
 | 🇪🇸 **Inky Rihan** | The Red Team Phantom — uncovers what others forget to lock. |
@@ -22,7 +22,7 @@
 
 ## 🌥️ Scene: Eks2 Arrives at the Lab  
 
-**Mr. eks2** walked into the cozy Azure training room, notebook in hand, eyes wide.  
+**Mr. Eks2** walked into the cozy Azure training room, notebook in hand, eyes wide.  
 Today’s mission? Create his very first **SQL Database**.  
 
 **Kasper** greeted him with a cheerful grin and a cinnamon pastry.  
