@@ -42,6 +42,25 @@ It simply said:
 
 ---
 
+## 📝 A Note on the Word “Ajar”
+
+The word **“ajar”** means *slightly open* — a door that’s not shut completely.  
+It feels harmless. But in the world of security, it means everything.
+
+> 🪟 *“The window was left ajar, letting the breeze in.”*  
+> 🚪 *“She found the door ajar and peeked inside.”*  
+> 🕶️ *“That port wasn’t public — just left ajar for testing.”*
+
+In cloud security, an **ajar configuration** is more dangerous than a broken one — because it *looks safe* while secretly whispering, *“come in…”*
+
+**Ajar is not failure.**  
+**Ajar is human.**  
+And that’s why Eks2 feels it so deeply.
+
+> 💭 *“That door… the one left ajar after a long night of configuring roles and policies.”*
+
+---
+
 ## 💭 IronWall Reflections  
 This isn’t documentation. This is a moment.  
 Of security, of soul, of silence.
@@ -50,8 +69,6 @@ Of security, of soul, of silence.
 
 🌐 We can configure firewalls, NSGs, private endpoints…  
 But what about the open door in the human heart?
-
-> That door… the one left ajar after a long night of configuring roles and policies.
 
 ---
 
