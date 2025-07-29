@@ -1,4 +1,6 @@
-# 🌥️ The Cloud Has Two Voices...
+# Lab 20: Create a SQL Database  –  Eks2’s Dialogue with ShadowNe🌸
+
+## 🌥️ The Cloud Has Two Voices...
 
 *👨‍💼 **Mr. Eks2** — A kind trainee learning cloud security in Denmark, one careful step at a time.*  
 *🕶️ **ShadowNet** — A silent adversary born from forgotten defaults and unchecked assumptions.*
