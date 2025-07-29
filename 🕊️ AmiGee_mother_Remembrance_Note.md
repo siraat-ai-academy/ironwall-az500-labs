@@ -64,7 +64,7 @@ And when she left — I realized:
 ## 💬 Final Log Entry
 
 ```
-Status: Dunia Offline  
+Status: This World — Offline    
 Ami Gee: Resting with Her Lord  
 Door: Left Ajar (slightly open)  
 Return: Awaited, in another life  
