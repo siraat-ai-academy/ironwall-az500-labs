@@ -101,7 +101,7 @@ And so, one by one, they began to reflect...
 
 **🇨🇳 Maya Lin**: “So queries are like asking questions to the database? I love that.”
 
-**👨‍💼 Mr. eks2**: “I created a table called `student`. It felt like giving life to structure.”
+**👨‍💼 Mr. Eks2**: “I created a table called `student`. It felt like giving life to structure.”
 
 **🕶️ ShadowNet**: hides in ‘select *’, waiting for overexposed views and forgotten rows.
 
@@ -109,7 +109,7 @@ And so, one by one, they began to reflect...
 
 ## 🧾 Final Reflection by Mr. Eks2  
 
-Mr. eks2 smiled, closing his laptop slowly. The warmth of the team lingered around him like sunlight.
+Mr. Eks2 smiled, closing his laptop slowly. The warmth of the team lingered around him like sunlight.
 
 > “Today, I met tools that don’t just work — they protect. Like my future content, they need boundaries, structure, and care.”
 
