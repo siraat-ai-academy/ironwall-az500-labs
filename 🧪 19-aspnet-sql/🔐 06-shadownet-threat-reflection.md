@@ -3,6 +3,11 @@
 🧠 *“Threat Modelling Dialogue — Mr. Eks2 Meets ShadowNet”*  
 *Human-centered security reflection through story, emotion, and insight.*  
 
+### 🌥️ The Cloud Has Two Voices...
+
+*👨‍💼 **Mr. Eks2** — A kind trainee learning cloud security in Denmark, one careful step at a time.*  
+*🕶️ **ShadowNet** — A silent adversary born from forgotten defaults and unchecked assumptions.*
+
 ---
 
 The Azure portal was quiet now. All the resources had been provisioned and tested — the ASP.NET app deployed, the database connected, migrations completed. The live app blinked in the browser like a neon sign: “Welcome, task creator.”
