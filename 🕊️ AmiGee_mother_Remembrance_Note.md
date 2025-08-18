@@ -1,5 +1,7 @@
 
-# 🕊️ A Door Left Ajar (slightly open) — For Ami Gee  
+# 🕯️🌸 A Door Left Ajar — For Ami Gee 🤍🌙  
+
+## (🌷🤲 A Loving Remembrance of My Beloved Mother 🕊️💖)  
 
 *In loving memory of my mother, who returned to her Lord on 31 December 2024.*  
 *This is not a goodbye. This is a waiting room, with the door left ajar (slightly open).*  
