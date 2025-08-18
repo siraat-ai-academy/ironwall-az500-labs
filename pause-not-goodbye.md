@@ -100,6 +100,10 @@ This is the space before the return.
 
 ---
 
+“This story isn’t just about Kasper — it’s about what every Cloud Security Expert brings: calm under pressure, empathy in defense, and clarity in complexity. That’s what I document, simplify, and share — from AZ-500 labs to real-world cloud security practices.”
+
+---
+
 ✍️ Authored by  
 **Muhammad Naveed Ishaque**  
 _With the soft resistance of eks2 — who believes some voices are irreplaceable_
