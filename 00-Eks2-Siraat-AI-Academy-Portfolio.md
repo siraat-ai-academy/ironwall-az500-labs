@@ -86,6 +86,17 @@ This isn’t just DevOps — this is **DevOps as healing**. 💖
 
 ---
 
+## 🇩🇰 Learn Danish with Eks2 — From Zero to Something Real 🌱✨  
+
+📖 *A Danish roadmap written in Eks2’s soulful style — built as if learning step by step from zero.*  
+
+👉 [Learn Danish with Eks2](https://github.com/siraat-ai-academy/learn-danish-by-eks2)  
+
+_Handsome progress already done — still unfolding with warmth, clarity, and care. Not traditional language expertise, but proof that even an unfamiliar subject can be documented beautifully with AI-powered storytelling._ 🌸  
+
+---
+
+
 ## 🌈 The Whisper of Eks2  
 
 Every repo here is:  
