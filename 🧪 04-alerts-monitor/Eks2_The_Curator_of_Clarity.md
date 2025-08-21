@@ -5,7 +5,6 @@
 ## ✨ Who I Am 🌍  
 I am **Muhammad Naveed Ishaque**, known quietly in my own writings as **Eks2** — the inner whisper of curiosity that never stops asking *“Why?”*  
 
-- 🌍 Based in Spain with my family (soon relocating to Copenhagen, Denmark).  
 - 📖 A lifelong learner, driven not by titles or salaries, but by the thirst to **understand and simplify**.  
 - ✍️ A content creator who transforms cloud, AI, and security concepts into **human-centered stories**.  
 
