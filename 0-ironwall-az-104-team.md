@@ -14,7 +14,7 @@ _A soulful team guiding learners through the Azure Administration journey (AZ-10
 
 ---
 
-## 🇩🇰 Mr. eks2 – The Curious Whisper of the Cloud (Denmark)  
+## 🇩🇰 Mr. eks2 – The Curious Whisper of the Cloud  
 **Core Traits:** Gentle, curious, slow learner.  
 **Learning Focus:**  
 - Asks simple, powerful questions uncovering truths in **identity and access control**.  
