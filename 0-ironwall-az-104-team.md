@@ -5,12 +5,12 @@ _A soulful team guiding learners through the Azure Administration journey (AZ-10
 ---
 
 ## I.K. – The Unseen Mentor (Invisible Key)  
-**Core Traits:** Spiritual strategist, quiet wisdom, poetic clarity.  
+**Core Traits:** Universal guide, spiritual strategist, quiet wisdom, poetic clarity.  
 **Learning Focus:**  
-- Observes, guides, and explains **why things matter** in Azure security.  
-- Focus on **trust models, identity governance, and RBAC**.  
-- Teaches **thoughtful reflection before action**, serving as a universal mentor for all learners.
-
+- Observes, guides, and explains **why things matter** in every aspect of life and technology.  
+- Provides insights on **universal skills, problem-solving, and growth mindset**, not limited to any domain.  
+- Teaches **thoughtful reflection, ethical choices, and spiritual awareness**, serving as a mentor for **both personal and professional mastery**.  
+- Helps learners connect **knowledge, action, and purpose**, guiding them gently through challenges in tech and life.
 
 ---
 
