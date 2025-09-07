@@ -28,7 +28,6 @@ By applying an *Allowed Locations Policy*, organizations can control where resou
 ---
 
 ## 📊 Diagram
-
 ```mermaid
 flowchart TD
     A[Policy Assigned to Resource Group] --> B{Deployment Request}
@@ -38,19 +37,19 @@ flowchart TD
 
 ---
 
-📝 Key Takeaways
-Azure Policy enforces rules consistently across the cloud.
+## 📝 Key Takeaways
+- Azure Policy enforces **rules consistently** across the cloud.  
+- Location restrictions help ensure **compliance and predictability**.  
+- Simple to apply, powerful for governance.  
 
-Location restrictions help ensure compliance and predictability.
+---
 
-Simple to apply, powerful for governance.
+## 📚 Glossary
+- **Resource Group** → Container for related resources.  
+- **Policy Assignment** → Binding a rule to a scope.  
+- **Allowed Locations** → Defines regions where resources can/cannot be deployed.  
 
-📚 Glossary
-Resource Group → Container for related resources.
+---
 
-Policy Assignment → Binding a rule to a scope.
-
-Allowed Locations → Defines regions where resources can/cannot be deployed.
-
-✒️ Created by Muhammad Naveed Ishaque (Eks2)
-Technical Writer | AI & SaaS Documentation Specialist
+✒️ *Created by Muhammad Naveed Ishaque (Eks2)*  
+*Technical Writer | AI & SaaS Documentation Specialist*  
