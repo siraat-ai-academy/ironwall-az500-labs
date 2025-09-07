@@ -28,7 +28,7 @@ By applying an *Allowed Locations Policy*, organizations can control where resou
 ---
 
 ## 📊 Diagram
-```mermaid
+
 flowchart TD
     A[Policy Assigned to Resource Group] --> B{Deployment Request}
     B -->|Wrong Region (East US)| C[Denied ❌]
