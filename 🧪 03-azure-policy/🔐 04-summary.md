@@ -34,6 +34,8 @@ flowchart TD
     A[Policy Assigned to Resource Group] --> B{Deployment Request}
     B -->|Wrong Region (East US)| C[Denied ❌]
     B -->|Approved Region (UK South)| D[Allowed ✅]
+```
+
 ---
 
 📝 Key Takeaways
