@@ -36,10 +36,6 @@ flowchart TD
     B -->|Approved Region (UK South)| D[Allowed]
 ```
 
-
-
----
-
 ## 📝 Key Takeaways
 - Azure Policy enforces **rules consistently** across the cloud.  
 - Location restrictions help ensure **compliance and predictability**.  
