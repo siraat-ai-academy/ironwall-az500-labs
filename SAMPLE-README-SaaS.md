@@ -31,9 +31,9 @@ By applying an *Allowed Locations Policy*, organizations can control where resou
 ```mermaid
 flowchart TD
     A[Policy Assigned to Resource Group] --> B{Deployment Request}
-    B -->|Wrong Region (East US)| C[Denied ❌]
-    B -->|Approved Region (UK South)| D[Allowed ✅]
-```
+    B -->|Wrong Region (East US)| C[Denied]
+    B -->|Approved Region (UK South)| D[Allowed]
+
 
 ---
 
