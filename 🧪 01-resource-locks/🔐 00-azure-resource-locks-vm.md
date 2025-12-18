@@ -1,7 +1,7 @@
-# 🛡️ Create a Virtual Machine & Add Azure Resource Locks
+# 🛡️ Create an Azure Virtual Machine and Protect It with Resource Locks
 
-This lab demonstrates how to create an Azure Virtual Machine and protect it from accidental deletion or modification using Azure Resource Locks.  
-The steps follow a clean, practical approach suitable for beginners and certification preparation (AZ-500 / Security fundamentals).
+This lab demonstrates how to create an Azure Virtual Machine and secure it using **Azure Resource Locks** to prevent accidental deletion or modification.  
+This is a core skill for Azure security, governance, and AZ-500 exam preparation.
 
 ---
 
@@ -9,134 +9,136 @@ The steps follow a clean, practical approach suitable for beginners and certific
 
 By the end of this lab, you will be able to:
 
-- ✅ Create a Virtual Machine in Azure
-- 🔐 Apply a **Delete lock** to a Virtual Machine
-- 👁️ Apply a **Read-only lock** to a Resource Group
-- 🧹 Safely remove locks and clean up resources
+- Create an Azure Virtual Machine
+- Apply a **Delete lock** to a Virtual Machine
+- Apply a **Read-only lock** to a Resource Group
+- Verify lock behavior
+- Safely remove locks and clean up resources
 
 ---
 
-## 🧰 Prerequisites
+## 🧩 Prerequisites
 
-- Azure subscription (Free or Paid)
-- Access to the Azure Portal  
-  👉 https://portal.azure.com
+- Active Azure subscription
+- Access to the Azure Portal
+- Basic familiarity with Azure resources
 
 ---
 
-## 🔧 Task 1: Create a Virtual Machine
+## 🖥️ Task 1: Create a Virtual Machine
 
 1. Sign in to the **Azure Portal**
 2. Select **Create a resource**
 3. Choose **Virtual Machine**
 
-### 📁 Basic Configuration
+### 📁 Basics
 
-- **Subscription**: Select your active subscription
-- **Resource Group**:  
-  - Click **Create new**
-  - Name: `NordicVault-Resources`
-- **Virtual Machine name**: `NordicVault-VM`
-- **Region**: Choose any available region
+4. Subscription: Select your subscription  
+5. Resource Group:  
+   - Click **Create new**
+   - Name: `NordicVault-Resources`
+6. Virtual machine name: `NordicVault-VM`
+7. Region: Choose any preferred region
+8. Availability options: **No infrastructure redundancy required**
+9. Security type: **Trusted launch**
+10. Image: **Ubuntu Server 20.04 LTS (Gen2)**
+11. Size: **B2s**
 
-### ⚙️ Availability & Security
+### 🔐 Administrator Account
 
-- **Availability options**: No infrastructure redundancy required
-- **Security type**: Trusted Launch
+12. Authentication type: Password
+13. Username: `NordicUser`
+14. Password: Use a strong password
 
-### 💿 Image & Size
+### 💽 Disks
 
-- **Image**: Ubuntu Server 20.04 LTS (Gen2)
-- **Size**: B2s
+15. OS disk type: **Standard SSD**
 
-### 🔑 Administrator Account
+### 🚀 Create
 
-- **Authentication type**: Password
-- **Username**: `NordicUser`
-- **Password**: Create a strong password
-
-### 💾 Disk Settings
-
-- **OS Disk Type**: Standard SSD
-
-4. Select **Review + Create**
-5. After validation passes, select **Create**
-
-⏳ Wait for deployment to complete.
+16. Select **Review + Create**
+17. Validate settings
+18. Click **Create**
+19. Wait for deployment to complete
 
 ---
 
-## 🔐 Task 2: Add a Delete Lock to the Virtual Machine
+## 🔒 Task 2: Add a Delete Lock to the Virtual Machine
 
 1. Open the **NordicVault-VM**
-2. In the left menu, select **Locks** (under Settings)
-3. Select **Add**
+2. In the left menu, select **Locks**
+3. Click **Add**
+4. Lock name: `VMDeleteLock`
+5. Lock type: **Delete**
+6. Click **OK**
 
-### 🔒 Lock Configuration
+### ✅ Result
 
-- **Lock name**: `VMDeleteLock`
-- **Lock type**: Delete
-- **Notes (optional)**: Prevent accidental deletion
-
-4. Select **OK**
-
-✅ The Virtual Machine is now protected from deletion.
+- The Virtual Machine **cannot be deleted**
+- All other operations continue to function normally
 
 ---
 
 ## 🛑 Task 3: Add a Read-Only Lock to the Resource Group
 
-1. Open the **NordicVault-Resources** Resource Group
-2. Select **Locks** from the left menu
-3. Select **Add**
+1. Open **NordicVault-Resources**
+2. Navigate to **Locks**
+3. Click **Add**
+4. Lock name: `RGReadOnly`
+5. Lock type: **Read-only**
+6. Click **OK**
 
-### 👁️ Lock Configuration
+### ✅ Result
 
-- **Lock name**: `RGReadOnly`
-- **Lock type**: Read-only
-- **Notes (optional)**: Prevent changes to all resources
-
-4. Select **OK**
-
-✅ All resources in the Resource Group are now protected from modification.
+- All resources can be viewed
+- No modifications are allowed
 
 ---
 
-## 🧪 Validation Test (Optional)
+## 🧪 Task 4: Verify Lock Behavior
 
-- Attempt to delete the Virtual Machine  
-- Azure will block the action due to the lock
+1. Attempt to delete the Virtual Machine  
+   - Operation fails due to **Delete lock**
+2. Attempt to modify a resource in the Resource Group  
+   - Operation fails due to **Read-only lock**
+
+This confirms that the locks are active and enforced.
 
 ---
 
-## 🧹 Clean-Up (Important)
+## 🧹 Task 5: Clean Up Resources
 
-To delete resources successfully:
+To delete resources safely:
 
-1. Remove the **VMDeleteLock** from the Virtual Machine
-2. Remove the **RGReadOnly** lock from the Resource Group
+1. Remove **RGReadOnly** lock from the Resource Group
+2. Remove **VMDeleteLock** from the Virtual Machine
 3. Delete the Virtual Machine
 4. Delete the Resource Group
 
-⚠️ Locks must be removed before deletion is allowed.
+---
+
+## 🌍 Real-World Relevance
+
+- Prevents accidental deletion in production environments
+- Enforces governance and change control
+- Commonly used in enterprise Azure environments
+- Frequently tested in **AZ-500** and security interviews
 
 ---
 
-## 🌍 Real-World Importance
+## 🧠 Key Takeaways
 
-- Resource locks prevent accidental damage
-- Commonly used in production and enterprise environments
-- Essential knowledge for:
-  - Cloud administrators
-  - Security engineers
-  - AZ-500 & security certification candidates
+- **Delete locks** protect critical resources
+- **Read-only locks** protect entire environments
+- Locks enforce intention, not restriction
+- Security begins with simple safeguards
 
 ---
 
-## ✍️ Author
+## ✍️ Maintained By
 
 **Muhammad Naveed Ishaque**  
-Content Creator | AI-Assisted Educator | Concept Simplifier  
+Content Creator | AI Writer | Learning Experience Designer  
 
-**Siraat AI Academy**  
-_The Straight Path — Empowering minds with clarity, illuminating paths with purpose._
+Siraat AI Academy  
+*Empowering minds with clarity, one lab at a time.*
