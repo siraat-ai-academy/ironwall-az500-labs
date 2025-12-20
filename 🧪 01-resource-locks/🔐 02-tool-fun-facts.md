@@ -1,3 +1,6 @@
+## 🔒 Microsoft Azure — Understanding Resource Locks  
+### AZ-104 & AZ-500 Certification Lab
+
 # 🌟 Azure Tools Explained (For eks2)  
 _“What just happened in that lab?” — Let’s find out, the fun way!_
 
