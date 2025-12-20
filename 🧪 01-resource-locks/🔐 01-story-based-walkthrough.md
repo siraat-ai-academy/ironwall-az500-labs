@@ -1,3 +1,6 @@
+## 🔒 Microsoft Azure — Understanding Resource Locks  
+### AZ-104 & AZ-500 Certification Lab
+
 # 🛡️ Create a Virtual Machine & Add Azure Resource Locks
 
 ## 🔮 Scenario Setup
