@@ -1,3 +1,6 @@
+## 🔒 Microsoft Azure — Understanding Resource Locks  
+### AZ-104 & AZ-500 Certification Lab
+
 # 🛡️ Create an Azure Virtual Machine and Protect It with Resource Locks
 
 This lab demonstrates how to create an Azure Virtual Machine and secure it using **Azure Resource Locks** to prevent accidental deletion or modification.  
@@ -8,7 +11,7 @@ This is a core skill for Azure security, governance, and AZ-500 exam preparation
 ## 🎯 Lab Objectives
 
 By the end of this lab, you will be able to:
-
+https://www.youtube.com/watch?v=_MNp5q-Ktx8
 - Create an Azure Virtual Machine
 - Apply a **Delete lock** to a Virtual Machine
 - Apply a **Read-only lock** to a Resource Group
