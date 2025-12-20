@@ -86,6 +86,9 @@ Kasper chuckled. “Not physical keys — just digital safeguards!”
 
 This lab teaches a very real skill: how to protect cloud resources from accidents or mistakes. In real IT jobs, people often delete things too quickly — these **locks** act like safety nets. If you’re a beginner or switching careers, knowing how to use **resource locks** makes you a trusted guardian of the cloud.
 
+> **Strong engineers build fast.  
+> Wise engineers lock first.**
+
 ---
 
 ## 📘 Bonus: Learn 10 Danish Tech Words
