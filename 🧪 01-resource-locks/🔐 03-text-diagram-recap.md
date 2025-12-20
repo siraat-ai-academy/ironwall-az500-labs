@@ -1,3 +1,6 @@
+## 🔒 Microsoft Azure — Understanding Resource Locks  
+### AZ-104 & AZ-500 Certification Lab
+
 # 📊 AZ-500 Diagram + Friendly Breakdown  
 _Lab: Create a VM and Add Resource Locks (Lab 01)_
 
